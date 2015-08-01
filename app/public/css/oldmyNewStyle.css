@@ -1,0 +1,157 @@
+.myNewStyle { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #FF0000; }
+
+.my2ndNewStyle { font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; color: #FF0000; }
+
+#verticalmenu{background-color: #acacac; width: 10%; line-height: 2; display: block;
+border: 1mm solid #000000;}
+
+
+#navigation {
+    width: 550px;
+    height: 35px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#navigation ul {
+    height: auto;
+    padding: 8px 0px;
+    margin: 0px;
+}
+
+#navigation li {
+display: inline;
+padding: 20px;
+}
+
+#navigation a {
+    text-decoration: none;
+    color: #00F;
+    padding: 8px 8px 8px 8px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.container{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.header{
+  width: inherit;
+  font-family: helvetica;
+  height: 30px;
+  color: #000000;
+  position: fixed;
+  border:1px solid #CCC;
+  background-color: grey;
+
+}
+
+/*
+.header ul title{
+  list-style: none;
+  text-align: left;
+}
+
+.header.main-header.title{
+  list-style: none;
+  text-align: left;
+}
+
+.header.main-header.nav{
+  list-style: none;
+  text-align: center;
+}
+*/
+/*
+header
+padding: 0;
+margin: 0;
+
+*/
+
+.left-header{
+  float: left;
+  width: 200px;
+}
+
+.right-header{
+  float: left;
+  width: 700px;
+
+}
+.left-header ul.title{
+  list-style: none;
+  text-align: left;
+  font-family: monospace;
+
+}
+
+/*
+.header ul li {
+  display: inline;
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+}
+
+/*
+.header ul li.title{
+  font-family: monospace;
+}
+*/
+
+.right-header ul.nav{
+  font-family: sans-serif;
+  list-style: none;
+  text-align: right;
+
+}
+
+
+.header ul.nav li{
+  display: inline;
+  padding: 4.0px;
+}
+
+.navigation{
+  overflow: auto;
+  border-style: solid;
+}
+
+.main{
+  overflow: auto;
+
+}
+
+
+.main-left{
+  float: left;
+  width: 200px;
+  font-family: Helvetica;
+  margin-top: 40px;
+
+}
+
+.main-right{
+  float: left;
+  line-height: 1.5;
+  font-family: 'Merriweather';
+  width: 900px;
+  overflow: auto;
+  margin-top: 40px;
+  text-align: left;
+
+}
+
+.footer{
+  font-family: serif;
+  height: 20px;
+  color: #000000;
+  background-color: grey;
+}

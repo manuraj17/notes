@@ -1,0 +1,21 @@
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Merriweather")
+    link(rel='stylesheet', href='/css/myNewStyle.css')
+  body
+    .container
+      .header
+        .left-header
+          ul.title
+            li
+              |NOTES    #{title}
+        .right-header
+          ul.nav
+            li
+              a(href='/home') HOME
+            li
+              a(href='/newpost') NEW POST
+
+      .main
+        block content
